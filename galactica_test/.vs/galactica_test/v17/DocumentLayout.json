@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\services\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:services\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\services\\abstract\\isecurityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:services\\abstract\\isecurityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\models\\request\\editemployeecarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:models\\request\\editemployeecarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\models\\response\\employeecarmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:models\\response\\employeecarmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\models\\response\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:models\\response\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\models\\request\\licenseplaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:models\\request\\licenseplaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\db\\securitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:db\\securitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\db\\entities\\employeeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:db\\entities\\employeeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\db\\entities\\employeescarsentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:db\\entities\\employeescarsentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\galactica_test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:galactica_test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\galactica_test.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:galactica_test.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\db\\accessors\\securitycontextaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:db\\accessors\\securitycontextaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\db\\accessors\\abstract\\isecuritycontextaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:db\\accessors\\abstract\\isecuritycontextaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|d:\\kirilldata\\git_projects\\galactica_test\\galactica_test\\galactica_test.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{BA4880DC-5700-4210-A24C-F5A4868F890A}|galactica_test.csproj|solutionrelative:galactica_test.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditEmployeeCarRequest.cs",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Models\\Request\\EditEmployeeCarRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Request\\EditEmployeeCarRequest.cs",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Models\\Request\\EditEmployeeCarRequest.cs",
+              "RelativeToolTip": "Models\\Request\\EditEmployeeCarRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T21:49:54.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeCarModel.cs",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Models\\Response\\EmployeeCarModel.cs",
+              "RelativeDocumentMoniker": "Models\\Response\\EmployeeCarModel.cs",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Models\\Response\\EmployeeCarModel.cs",
+              "RelativeToolTip": "Models\\Response\\EmployeeCarModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T21:31:10.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T20:22:49.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ISecurityService.cs",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Services\\Abstract\\ISecurityService.cs",
+              "RelativeDocumentMoniker": "Services\\Abstract\\ISecurityService.cs",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Services\\Abstract\\ISecurityService.cs",
+              "RelativeToolTip": "Services\\Abstract\\ISecurityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T21:04:43.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Models\\Response\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "Models\\Response\\EmployeeModel.cs",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Models\\Response\\EmployeeModel.cs",
+              "RelativeToolTip": "Models\\Response\\EmployeeModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T21:31:02.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SecurityService.cs",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Services\\SecurityService.cs",
+              "RelativeDocumentMoniker": "Services\\SecurityService.cs",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Services\\SecurityService.cs",
+              "RelativeToolTip": "Services\\SecurityService.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T21:04:16.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LicensePlateRequest.cs",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Models\\Request\\LicensePlateRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Request\\LicensePlateRequest.cs",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Models\\Request\\LicensePlateRequest.cs",
+              "RelativeToolTip": "Models\\Request\\LicensePlateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T21:49:23.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SecurityContext.cs",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Db\\SecurityContext.cs",
+              "RelativeDocumentMoniker": "Db\\SecurityContext.cs",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Db\\SecurityContext.cs",
+              "RelativeToolTip": "Db\\SecurityContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T20:28:25.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeEntity.cs",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Db\\Entities\\EmployeeEntity.cs",
+              "RelativeDocumentMoniker": "Db\\Entities\\EmployeeEntity.cs",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Db\\Entities\\EmployeeEntity.cs",
+              "RelativeToolTip": "Db\\Entities\\EmployeeEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T20:27:09.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "galactica_test",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\galactica_test.csproj",
+              "RelativeDocumentMoniker": "galactica_test.csproj",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\galactica_test.csproj",
+              "RelativeToolTip": "galactica_test.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-19T21:26:02.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeesCarsEntity.cs",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Db\\Entities\\EmployeesCarsEntity.cs",
+              "RelativeDocumentMoniker": "Db\\Entities\\EmployeesCarsEntity.cs",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Db\\Entities\\EmployeesCarsEntity.cs",
+              "RelativeToolTip": "Db\\Entities\\EmployeesCarsEntity.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T20:29:54.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAQwEQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T20:21:31.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-19T20:28:40.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "galactica_test",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\galactica_test.csproj",
+              "RelativeDocumentMoniker": "galactica_test.csproj",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\galactica_test.csproj",
+              "RelativeToolTip": "galactica_test.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-19T21:19:55.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SecurityContextAccessor.cs",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Db\\Accessors\\SecurityContextAccessor.cs",
+              "RelativeDocumentMoniker": "Db\\Accessors\\SecurityContextAccessor.cs",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Db\\Accessors\\SecurityContextAccessor.cs",
+              "RelativeToolTip": "Db\\Accessors\\SecurityContextAccessor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T20:43:29.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ISecurityContextAccessor.cs",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Db\\Accessors\\Abstract\\ISecurityContextAccessor.cs",
+              "RelativeDocumentMoniker": "Db\\Accessors\\Abstract\\ISecurityContextAccessor.cs",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\Db\\Accessors\\Abstract\\ISecurityContextAccessor.cs",
+              "RelativeToolTip": "Db\\Accessors\\Abstract\\ISecurityContextAccessor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T20:42:58.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "galactica_test.http",
+              "DocumentMoniker": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\galactica_test.http",
+              "RelativeDocumentMoniker": "galactica_test.http",
+              "ToolTip": "D:\\KirillData\\git_projects\\galactica_test\\galactica_test\\galactica_test.http",
+              "RelativeToolTip": "galactica_test.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-19T20:21:42.247Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

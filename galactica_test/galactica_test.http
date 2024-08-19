@@ -1,0 +1,6 @@
+@galactica_test_HostAddress = http://localhost:5147
+
+GET {{galactica_test_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
