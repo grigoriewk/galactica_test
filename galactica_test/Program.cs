@@ -8,6 +8,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.OpenApi.Models;
 using System.Diagnostics;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using galactica_test.Models.Request;
+using galactica_test.Validators;
 
 namespace galactica_test
 {
@@ -21,6 +25,7 @@ namespace galactica_test
             // Add services to the container.
 
             builder.Services.AddControllers();
+            
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(c =>
@@ -34,7 +39,12 @@ namespace galactica_test
                 c.IncludeXmlComments(filePath);
             });
 
-
+            builder.Services.AddScoped<IValidator<EditEmployeeCarRequest>, EditEmployeeCarRequestValidator>();
+            builder.Services.AddScoped<IValidator<CreateEmployeeRequest>, CreateEmployeeRequestValidator>();
+            builder.Services.AddScoped<IValidator<CreateEmployeeLicensePlateRequest>, CreateEmployeeLicensePlateRequestValidator>();
+            builder.Services.AddScoped<IValidator<RemoveEmployeeLicensePlateRequest>, RemoveEmployeeLicensePlateRequestValidator>();
+            
+            builder.Services.AddSingleton<ILogService, LogService>();
             builder.Services.AddSingleton<ISecurityService, SecurityService>();
             builder.Services.AddSingleton<ISecurityContextAccessor, SecurityContextAccessor>();
 
@@ -43,6 +53,8 @@ namespace galactica_test
             builder.Services.AddDbContextFactory<SecurityContext>(ConfigureDbContext);
             builder.Services.AddDbContext<SecurityContext>(ConfigureDbContext);
 
+            builder.Services.AddFluentValidationAutoValidation();
+            
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

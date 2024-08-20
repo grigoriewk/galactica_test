@@ -15,11 +15,14 @@ namespace galactica_test.Db
         public DbSet<EmployeeEntity> Employees { get; set; }
 
         public DbSet<EmployeesCarsEntity> EmployeesCars { get; set; }
+        
+        public DbSet<LogEntity> Logs { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(EmployeeEntity).Assembly);
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(EmployeesCarsEntity).Assembly);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(LogEntity).Assembly);
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

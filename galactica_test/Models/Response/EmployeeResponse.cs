@@ -1,8 +1,11 @@
 ﻿namespace galactica_test.Models.Response
 {
-    public class EmployeeModel
+    /// <summary>
+    /// Данные о работнике
+    /// </summary>
+    public class EmployeeResponse
     {
-        public EmployeeModel(long id, string name, string lastName)
+        public EmployeeResponse(long id, string name, string lastName)
         {
             Id = id;
             Name = name;
