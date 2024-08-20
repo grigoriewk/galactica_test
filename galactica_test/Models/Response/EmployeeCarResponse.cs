@@ -1,7 +1,7 @@
 ﻿namespace galactica_test.Models.Response
 {
     /// <summary>
-    /// Модель данных о машине
+    /// Модель данных о госномерах работника
     /// </summary>
     public class EmployeeCarResponse
     {
@@ -12,7 +12,7 @@
         }
 
         /// <summary>
-        /// Госномер
+        /// Госномера работника
         /// </summary>
         public string[] LicensePlate { get; set; }
         

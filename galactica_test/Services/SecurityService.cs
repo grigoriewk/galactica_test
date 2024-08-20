@@ -206,5 +206,66 @@ namespace galactica_test.Services
 
             return response;
         }
+
+        /// <inheritdoc />
+        public async Task<BaseResponse<CheckLicensePlateResponse>> CheckByLicensePlateAsync(string licensePlate, CancellationToken cancellationToken)
+        {
+            var response = new BaseResponse<CheckLicensePlateResponse>();
+
+            var licensePlateInfo = await _context.EmployeesCars
+                .Where(x => x.LicensePlateNumber == licensePlate)
+                    .Include(x => x.Employee)
+                .SingleOrDefaultAsync(cancellationToken);
+
+            if (licensePlateInfo == null)
+            {
+                response.Data = new CheckLicensePlateResponse
+                {
+                    IsExist = false,
+                    LicensePlate = licensePlate
+                };
+                
+                return response;
+            }
+
+            response.Data = new CheckLicensePlateResponse
+            {
+                IsExist = true,
+                Employee = new EmployeeResponse(licensePlateInfo.Employee.Id, licensePlateInfo.Employee.Name, licensePlateInfo.Employee.LastName),
+                LicensePlate = licensePlate
+            };
+
+            return response;
+        }
+
+        /// <inheritdoc />
+        public async Task<BaseResponse<CheckLicensePlateResponse>> CheckByEmployeeIdAsync(long id, CancellationToken cancellationToken)
+        {
+            var response = new BaseResponse<CheckLicensePlateResponse>();
+
+            var licensePlateInfo = await _context.EmployeesCars
+                .Where(x => x.EmployeeId == id)
+                    .Include(x => x.Employee)
+                .ToListAsync(cancellationToken);
+
+            if (licensePlateInfo.Count == 0)
+            {
+                response.Data = new CheckLicensePlateResponse
+                {
+                    IsExist = false
+                };
+                
+                return response;
+            }
+
+            response.Data = new CheckLicensePlateResponse
+            {
+                IsExist = true,
+                Employee = new EmployeeResponse(licensePlateInfo.Employee.Id, licensePlateInfo.Employee.Name, licensePlateInfo.Employee.LastName),
+                LicensePlate = licensePlateInfo.LicensePlateNumber
+            };
+
+            return response;
+        }
     }
 }

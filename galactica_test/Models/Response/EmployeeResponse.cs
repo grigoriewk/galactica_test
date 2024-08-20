@@ -12,7 +12,6 @@
             LastName = lastName;
         }
 
-
         /// <summary>
         /// ID
         /// </summary>

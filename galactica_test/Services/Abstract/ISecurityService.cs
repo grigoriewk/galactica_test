@@ -46,5 +46,15 @@ namespace galactica_test.Services.Abstract
         /// Отвязать госномер от работника
         /// </summary>
         public Task<BaseResponse> RemoveEmployeeLicensePlateAsync(RemoveEmployeeLicensePlateRequest request, CancellationToken cancellationToken);
+
+        /// <summary>
+        /// Проверить, привязан ли госномер к работнику
+        /// </summary>
+        Task<BaseResponse<CheckLicensePlateResponse>> CheckByLicensePlateAsync(string licensePlate, CancellationToken cancellationToken);
+
+        /// <summary>
+        /// Проверить, какие госномера принадлежат сотруднику
+        /// </summary>
+        Task<BaseResponse<CheckEmployeeLicensePlatesResponse>> CheckByEmployeeIdAsync(long id, CancellationToken cancellationToken);
     }
 }

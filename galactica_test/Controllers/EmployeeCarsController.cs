@@ -88,7 +88,63 @@ public class EmployeeCarsController : ControllerBase
 
         return StatusCode(response.Result.Status, response);
     }
+
+    /// <summary>
+    /// Проверить, привязан ли госномер к работнику
+    /// </summary>
+    [HttpGet("check-by-license")]
+    public async Task<ActionResult<CheckLicensePlateResponse>> CheckByLicensePlate([FromQuery] string licensePlate, CancellationToken cancellationToken)
+    {
+        BaseResponse<CheckLicensePlateResponse> response;
+        try
+        {
+            response = await _securityService.CheckByLicensePlateAsync(licensePlate, cancellationToken);
+        }
+        catch (Exception ex)
+        {
+            response = new BaseResponse<CheckLicensePlateResponse>
+            {
+                Result = new BaseResult
+                {
+                    Status = (int)ErrorCode.InnerException,
+                    Message = "Внутренняя ошибка сервиса"
+                }
+            };
+
+            await _logService.LogErrorAsync(ex, cancellationToken);
+        }
+
+        return StatusCode(response.Result.Status, response);
+    }
     
+    /// <summary>
+    /// Проверить, какие госномера принадлежат сотруднику
+    /// </summary>
+    [HttpGet("check-by-id")]
+    public async Task<ActionResult<CheckEmployeeLicensePlatesResponse>> CheckByEmployeeId([FromQuery] long id, CancellationToken cancellationToken)
+    {
+        BaseResponse<CheckEmployeeLicensePlatesResponse> response;
+        try
+        {
+            response = await _securityService.CheckByEmployeeIdAsync(id, cancellationToken);
+        }
+        catch (Exception ex)
+        {
+            response = new BaseResponse<CheckEmployeeLicensePlatesResponse>
+            {
+                Result = new BaseResult
+                {
+                    Status = (int)ErrorCode.InnerException,
+                    Message = "Внутренняя ошибка сервиса"
+                }
+            };
+
+            await _logService.LogErrorAsync(ex, cancellationToken);
+        }
+
+        return StatusCode(response.Result.Status, response);
+    }
+
     /// <summary>
     /// Изменить данные о госномере работника
     /// </summary>
